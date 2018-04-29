@@ -1,5 +1,6 @@
 # Simplified 2nd-keyboard
-A simplified version of TaranVH's 2nd-keyboard project (LUAMACROS) for general use
+A simplified version of TaranVH's 2nd-keyboard project (LUAMACROS) for general use.
+This script is only for Windows. Sorry Linux and Mac!
 
 #### THIS PROJECT IS A FORK OF THE 2ND-KEYBOARD PROJECT BY TARAN VAN HEMERT (FROM LINUSTECHTIPS), FOUND AT https://github.com/TaranVH/2nd-keyboard/
 More specifically, this is a fork of his LUAMACROS version, found in the LUAMACROS folder at his repo.
@@ -39,7 +40,7 @@ OPTIONAL - Make it all run on startup:
 13. Press WINDOWS+R and type shell:startup
 14. Copy `AHKkeyboardMacroRunner.ahk` from your install and paste it as a shortcut into this startup folder.
 15. Copy `LuaMacros.exe` from wherever you installed it and paste it as a shortcut into this startup folder.
-16. Right click the new `LuaMacros.exe` shortcut and in the Target box, add `-r "<<PATH TO YOUR luamacrosKeyboardIntercept.lua"` to the end of it.
+16. Right click the new `LuaMacros.exe` shortcut and in the Target box, add `-r "<<PATH TO YOUR luamacrosKeyboardIntercept.lua>>"` to the end of it.
 
 The system is now functioning.
 You just need to edit your `AHKkeyboardMacroRunner.ahk` to do what you want with the keys.
