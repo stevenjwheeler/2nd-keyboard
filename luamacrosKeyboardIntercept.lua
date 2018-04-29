@@ -4,7 +4,6 @@
 clear() --clear the console from last run
 local keyboardIdentifier = '0000AAA'
 lmc.minimizeToTray = true
-lmc_minimize()
 
 --You need to get the identifier code for the keyboard with name "MACROS"
 --This appears about halfway through the SystemID item and looks like 1BB382AF or some other alphanumeric combo. 
@@ -15,6 +14,7 @@ lmc_minimize()
 if keyboardIdentifier == '0000AAA' then
 	lmc_assign_keyboard('MACROS');
 else lmc_device_set_name('MACROS', keyboardIdentifier);
+	lmc_minimize();
 end
 --This lists connected keyboards
 dev = lmc_get_devices()
